@@ -40,5 +40,6 @@ public class Student1 {
     public void setName(String givenName) {
             name = givenName;
     }
+    System.out.println("Bye!");
     
 }
