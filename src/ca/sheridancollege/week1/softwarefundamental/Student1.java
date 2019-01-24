@@ -11,8 +11,22 @@ package ca.sheridancollege.week1.softwarefundamental;
  */
 public class Student1 {
 
-    private String name;
+    /**
+     * @return the studentId
+     */
+    public int getStudentId() {
+        return studentId;
+    }
 
+    /**
+     * @param studentId the studentId to set
+     */
+    public void setStudentId(int studentId) {
+        this.studentId = studentId;
+    }
+
+    private String name;
+    private int studentId;
     /**
      * @return the name
      */
