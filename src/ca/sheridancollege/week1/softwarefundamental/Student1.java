@@ -12,6 +12,20 @@ package ca.sheridancollege.week1.softwarefundamental;
 public class Student1 {
 
     /**
+     * @return the maxCourse
+     */
+    public int getMaxCourse() {
+        return maxCourse;
+    }
+
+    /**
+     * @param maxCourse the maxCourse to set
+     */
+    public void setMaxCourse(int maxCourse) {
+        this.maxCourse = maxCourse;
+    }
+
+    /**
      * @return the studentId
      */
     public int getStudentId() {
@@ -27,6 +41,7 @@ public class Student1 {
 
     private String name;
     private int studentId;
+    private int maxCourse;
     /**
      * @return the name
      */
